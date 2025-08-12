@@ -1,3 +1,40 @@
 body {
-    background-color: rgb(141, 136, 136);
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, teal, white);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: darkcyan;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: teal;
 }
